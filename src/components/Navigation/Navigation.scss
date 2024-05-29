@@ -1,0 +1,68 @@
+.Navigation-wrapper {
+
+    width: 327px;
+    height: 203px;
+    background-color: #1C204B;
+    border-radius: 1rem;
+
+    .bio-data {
+        
+        border-radius: 1rem;
+        background-color: #5747EA;
+        height: 133px;
+        z-index: 1;
+        padding: 1rem;
+        
+
+        .avi {
+
+            position: relative;
+            top: 1rem;
+            left: 1rem;
+            width: 64px;
+            height: 64px;
+            border: 3px solid white;
+            border-radius: 50%;
+
+            
+        }
+
+        p {
+            position: relative;
+            left: 6rem;
+            bottom: 4rem;
+            font-size: 0.938rem;
+            color: #BBC0FF;
+        }
+
+        h1 {
+
+            position: relative;
+            left: 5.9rem;
+            bottom: 5rem;
+            font-size: 1.5rem;
+            font-weight: 200;
+            color: white;
+        }
+    }
+
+    .time-nav {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        padding: 0 1.5rem;
+        
+
+        button {
+            border: none;
+            background: none;
+            font-size: 1.125rem;
+            color: #7078C9;
+        }
+    }
+
+    
+
+}

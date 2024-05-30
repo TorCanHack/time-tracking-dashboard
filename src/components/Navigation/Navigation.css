@@ -47,4 +47,41 @@
   background: none;
   font-size: 1.125rem;
   color: #7078C9;
+}
+.Navigation-wrapper .time-nav button:focus {
+  color: white;
+}
+
+@media screen and (min-width: 1440px) {
+  .Navigation-wrapper {
+    grid-column: 1/2;
+    grid-row: span 2;
+    width: 255px;
+    height: 518px;
+    margin: 0 2rem;
+  }
+  .Navigation-wrapper .bio-data {
+    height: 354px;
+  }
+  .Navigation-wrapper .bio-data .avi {
+    width: 78px;
+    height: 78px;
+  }
+  .Navigation-wrapper .bio-data p {
+    left: 1rem;
+    bottom: -2rem;
+  }
+  .Navigation-wrapper .bio-data h1 {
+    left: 1rem;
+    bottom: -1rem;
+    font-size: 2.5rem;
+  }
+  .Navigation-wrapper .time-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .Navigation-wrapper .time-nav button {
+    margin-bottom: 1rem;
+  }
 }/*# sourceMappingURL=Navigation.css.map */

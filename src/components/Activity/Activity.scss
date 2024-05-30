@@ -10,7 +10,6 @@ article {
         border-bottom-right-radius: 2rem;
 
         
-        
 
         .icon {
             display: block;
@@ -74,4 +73,64 @@ article {
     }
 
 
+}
+
+@media screen and (min-width:1440px) {
+
+ article {
+
+    margin: 1rem -2rem;
+
+    .Activity-wrapper {
+
+        width: 255px;
+        height: 244px;
+
+        .icon {
+
+            margin-left: 10rem;
+        }
+
+        .stats-display {
+
+            height: 199px;
+            margin-top: -8px;
+            position: relative;
+
+            .title-and-currenthrs {
+
+                h2 {
+                    position: absolute;
+                    font-size: 3.5rem;
+                    font-weight: 100;
+                    margin-top: 8px;
+                    
+                }
+            }
+
+            .lastweek-and-previoushrs {
+
+                p {
+
+                    position: relative;
+                    font-weight: 100;
+                    left: 4rem;
+
+                }
+
+                h3 {
+
+                    bottom: -3rem;
+                    right: 5.5rem;
+                    font-weight: 200;
+                    width: 130px;
+                   
+                }
+            }
+        }
+
+
+    }
+ }
+    
 }

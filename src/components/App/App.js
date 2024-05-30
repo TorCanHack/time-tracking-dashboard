@@ -16,7 +16,7 @@ function App() {
 
   return (
     <TimeframeProvider>
-      <main className="App">
+      <div className="App">
         <Navigation/>
         <Work/>
         <Play/>
@@ -24,7 +24,7 @@ function App() {
         <Exercise/>
         <Social/>
         <SelfCare/>
-      </main>
+      </div>
     </TimeframeProvider>
 
   );

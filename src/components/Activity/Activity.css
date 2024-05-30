@@ -48,4 +48,39 @@ article .Activity-wrapper .stats-display .lastweek-and-previoushrs h3 {
   position: relative;
   bottom: 1.7rem;
   font-size: 0.938rem;
+}
+
+@media screen and (min-width: 1440px) {
+  article {
+    margin: 1rem -2rem;
+  }
+  article .Activity-wrapper {
+    width: 255px;
+    height: 244px;
+  }
+  article .Activity-wrapper .icon {
+    margin-left: 10rem;
+  }
+  article .Activity-wrapper .stats-display {
+    height: 199px;
+    margin-top: -8px;
+    position: relative;
+  }
+  article .Activity-wrapper .stats-display .title-and-currenthrs h2 {
+    position: absolute;
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-top: 8px;
+  }
+  article .Activity-wrapper .stats-display .lastweek-and-previoushrs p {
+    position: relative;
+    font-weight: 100;
+    left: 4rem;
+  }
+  article .Activity-wrapper .stats-display .lastweek-and-previoushrs h3 {
+    bottom: -3rem;
+    right: 5.5rem;
+    font-weight: 200;
+    width: 130px;
+  }
 }/*# sourceMappingURL=Activity.css.map */
